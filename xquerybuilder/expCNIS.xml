@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<arquivo xmlns:ns2="http://www.dataprev.gov.br/cnisrpps">
+    <cabecalho versao="1.0.0" poderUniGestora="1" numSIAFI="990000" nomeUniGestora="UNIDADE GESTORA" nomeRepresentanteLegalUniGestora="Representante" nomeRepresentanteLegalEnte="representante" nome="UNIÃO" esfera="0" data="02-07-2012" cpfRepresentanteLegalEnte="06785723485" cnpjUniGestora="00000000000000" cnpjTransmissor="00000000000000" cnpj="00394460000141" chave="698f0728aad3826b6227ce22a19bf874"/>
+    <endereco uf="DF" tipoLogradouro="8" municipio="530010" logradouro="logradouro"/>
+    <chefe uf="DF" tipoLogradouro="8" ramal="" outroTipoLogradouro="" nome="chefe" municipio="530010" logradouro="logradouro" idChefe="1" dtInicioMand="2012-01-01" cpf="06785723485"/>
+    <contribuicaoEnte vlContribuicao="60000" regime="1" poder="1" mes="5" bsCalculo="0" ano="2012"/>
+    <contribuicaoEnte vlContribuicao="60000" regime="1" poder="1" mes="5" bsCalculo="0" ano="2012"/>
+    <orgao unidadeGestora="N" siglaOrgao="" poder="1" nomeRazaoSocial="" nomeOrgao="ÓRGÃO" idOrgao="1"/>
+    <orgao unidadeGestora="S" siglaOrgao="" poder="1" nomeRazaoSocial="" nomeOrgao="UNIDADE GESTORA" idOrgao="2" cnpjOrgao="0"/>
+    <servidor rg="" nomeMae="" nome="SERVIDOR" idServidor="1" dtIngressoServPublico="2012-05-01">
+    	<vinculo>Teste1</vinculo>
+    </servidor>
+    <servidor rg="" nomeMae="" nome="SERVIDOR FALECIDO" idServidor="3" dtObito="2012-05-15" dtIngressoServPublico="2012-05-01">
+    	<vinculo>Teste2</vinculo>
+    </servidor>
+    <servidor rg="" nomeMae="" nome="SERVIDOR MILITAR" idServidor="5" dtIngressoServPublico="2012-05-01">
+    	<vinculo>Teste3</vinculo>
+    </servidor>
+    <servidor rg="" nomeMae="" nome="SERVIDOR MILITAR FALECIDO" idServidor="7" dtObito="2012-05-15" dtIngressoServPublico="2012-05-01">
+    	<vinculo>Teste4</vinculo>
+    </servidor>
+    <vinculoFuncional tipoVinculo="1" tipoServidor="1" tecnicoCientifico="N" sitPrevid="1" sitFuncional="1" regime="1" matricula="9879156" idVinculoFuncional="1" idServidor="1" idOrgao="1" dtIniCarreira="2012-05-01" dtIniCargo="2012-05-01" dtIngressoOrgao="2012-05-01" dedicacaoExclusiva="N" carreira="CARREIRA" cargo="Cargo" acumulavel="1"/>
+    <vinculoFuncional tipoVinculo="1" tipoServidor="1" tecnicoCientifico="N" sitPrevid="11" sitFuncional="11" regime="1" matricula="5743123" idVinculoFuncional="2" idServidor="3" idOrgao="1" dtIniCarreira="2012-05-01" dtIniCargo="2012-05-01" dtIngressoOrgao="2012-05-01" dedicacaoExclusiva="N" carreira="CARREIRA" cargo="Cargo" acumulavel="1"/>
+    <vinculoFuncional tipoVinculo="1" tipoServidor="2" tecnicoCientifico="N" sitPrevid="1" sitFuncional="1" regime="1" matricula="53624" idVinculoFuncional="3" idServidor="5" idOrgao="1" dtIniCarreira="2012-05-01" dtIniCargo="2012-05-01" dtIngressoOrgao="2012-05-01" dedicacaoExclusiva="N" carreira="CARREIRA" cargo="Cargo" acumulavel="1"/>
+    <vinculoFuncional tipoVinculo="1" tipoServidor="2" tecnicoCientifico="N" sitPrevid="11" sitFuncional="11" regime="1" matricula="346241" idVinculoFuncional="4" idServidor="7" idOrgao="1" dtIniCarreira="2012-05-01" dtIniCargo="2012-05-01" dtIngressoOrgao="2012-05-01" dedicacaoExclusiva="N" carreira="CARREIRA" cargo="Cargo" acumulavel="1"/>
+    <movimentacaoFuncional sitFuncional="1" portariaCessaoRequisicao="" periodoRGPS="N" idVinculoFuncional="1" idMovimentacaoFuncional="1" dtMovimentacao="2012-05-15" atoNomeacao=""/>
+    <movimentacaoFuncional sitFuncional="11" portariaCessaoRequisicao="" periodoRGPS="N" idVinculoFuncional="2" idMovimentacaoFuncional="2" dtMovimentacao="2012-05-15" dtFimCarreira="2012-05-15" dtFimCargo="2012-05-15" dtDesligamentoOrgao="2012-05-15" atoNomeacao=""/>
+    <movimentacaoFuncional sitFuncional="1" portariaCessaoRequisicao="" periodoRGPS="N" idVinculoFuncional="3" idMovimentacaoFuncional="3" dtMovimentacao="2012-05-15" atoNomeacao=""/>
+    <movimentacaoFuncional sitFuncional="11" portariaCessaoRequisicao="" periodoRGPS="N" idVinculoFuncional="4" idMovimentacaoFuncional="4" dtMovimentacao="2012-05-15" dtFimCarreira="2012-05-15" dtFimCargo="2012-05-15" dtDesligamentoOrgao="2012-05-15" atoNomeacao=""/>
+    <historicoFinanceiro vlRemContributiva="3000" vlRemCargoEfetivo="3000" vlRemBruta="3000" vlContribuicaoSegurado="300" vlContribuicaoPatronal="300" numeroFolha="1654" mes="5" idVinculoFuncional="1" idServidor="1" idHistoricoFinanceiro="1" decimoTerceiro="N" compoeMedBeneficio="N" ano="2012"/>
+    <historicoFinanceiro vlRemContributiva="3000" vlRemCargoEfetivo="3000" vlRemBruta="3000" vlContribuicaoSegurado="300" vlContribuicaoPatronal="300" numeroFolha="168" mes="5" idVinculoFuncional="2" idServidor="3" idHistoricoFinanceiro="2" decimoTerceiro="N" compoeMedBeneficio="N" ano="2012"/>
+    <historicoFinanceiro vlRemContributiva="3000" vlRemCargoEfetivo="3000" vlRemBruta="3000" vlContribuicaoSegurado="300" vlContribuicaoPatronal="300" numeroFolha="5236" mes="5" idVinculoFuncional="3" idServidor="5" idHistoricoFinanceiro="3" decimoTerceiro="N" compoeMedBeneficio="N" ano="2012"/>
+    <historicoFinanceiro vlRemContributiva="3000" vlRemCargoEfetivo="3000" vlRemBruta="3000" vlContribuicaoSegurado="300" vlContribuicaoPatronal="300" numeroFolha="21351" mes="5" idVinculoFuncional="4" idServidor="7" idHistoricoFinanceiro="4" decimoTerceiro="N" compoeMedBeneficio="N" bsCalculoServidor="0" ano="2012"/>
+    <dependente tipoDependencia="1" pensionista="N" nomeMae="MÃE" nome="DEPENDENTE" motInicioDep="0" idServidor="1" idDependente="1" dtNascto="1987-11-16"/>
+    <dependente tipoDependencia="4" pensionista="S" nomeMae="MÃE" nome="PENSIONISTA" motInicioDep="10" idServidor="3" idDependente="2" dtNascto="1987-11-16" dtIniDep="1987-11-16"/>
+    <dependente tipoDependencia="1" pensionista="N" nomeMae="MAE" nome="DEPENDENTE MILITAR" motInicioDep="0" idServidor="5" idDependente="3" dtNascto="1987-11-16"/>
+    <dependente tipoDependencia="4" pensionista="S" nomeMae="MAE" nome="PENSIONISTA MILITAR" motInicioDep="10" idServidor="7" idDependente="4" dtNascto="1987-11-16" dtIniDep="1987-11-16"/>
+    <resumo qtVinculoFuncional="4" qtTempoContribuicaoRPPS="0" qtTempoContribuicaoRGPS="0" qtServidor="4" qtOrgao="2" qtMovimentacaoFuncional="4" qtMaioridade="0" qtLimiteRemuneratorio="0" qtHistoricoFinanceiro="4" qtEndereco="1" qtDependente="4" qtContribuicaoEnte="2" qtChefe="1" qtBeneficioServidor="0"/>
+</arquivo>
