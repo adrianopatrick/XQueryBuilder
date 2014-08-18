@@ -21,7 +21,6 @@ import javax.swing.border.EmptyBorder;
 import javax.xml.xquery.XQException;
 
 import br.unifor.mia.xquerybuilder.dao.XQExpressionSample;
-import br.unifor.mia.xquerybuilder.utils.ArquivoUtils;
 
 /**
  * Classe que tem por resposabilidade interagir com o usuário
@@ -41,7 +40,6 @@ public class XQueryBuilder extends JFrame {
 	 * Create the frame.
 	 */
 	public XQueryBuilder() {
-		ArquivoUtils.configuraPastas();
 		setTitle("XQuery Builder 1.0");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 922, 515);

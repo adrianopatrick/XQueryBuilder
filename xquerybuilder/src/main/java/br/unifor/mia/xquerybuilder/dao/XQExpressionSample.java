@@ -8,7 +8,6 @@ import javax.xml.xquery.XQDataSource;
 import javax.xml.xquery.XQExpression;
 import javax.xml.xquery.XQSequence;
 
-import br.unifor.mia.xquerybuilder.utils.ArquivoUtils;
 import net.sf.saxon.xqj.SaxonXQDataSource;
 
 /**
@@ -30,9 +29,8 @@ public class XQExpressionSample extends XQJBase {
 			dataSource = new SaxonXQDataSource();
 			connection = dataSource.getConnection();
 			expression = connection.createExpression();
-			resultSequence = expression.executeQuery(consultaXQ.replace(
-					"fn:doc('",
-					"fn:doc('" + ArquivoUtils.getPathXquerybuilder()));
+			
+			resultSequence = expression.executeQuery(consultaXQ);
 
 			while (resultSequence.next()) {
 				retorno.add(resultSequence.getItemAsString(null));
