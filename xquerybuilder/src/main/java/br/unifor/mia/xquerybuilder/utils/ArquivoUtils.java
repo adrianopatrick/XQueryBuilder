@@ -12,9 +12,9 @@ public class ArquivoUtils {
 
 	private static final String PATH_XQUERYBUILDER = System
 			.getProperty("user.home")
-			+ File.separator
+			+ "/"
 			+ ".xquerybuilder"
-			+ File.separator;
+			+ "/";
 
 	public static void configuraPastas() {
 		File file = new File(PATH_XQUERYBUILDER);
