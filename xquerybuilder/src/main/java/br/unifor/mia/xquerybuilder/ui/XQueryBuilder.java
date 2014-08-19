@@ -99,7 +99,7 @@ public class XQueryBuilder extends JFrame {
 		contentPane.add(separator);
 		
 		JLabel lbladrianopatrick = new JLabel("#mia-unifor @adrianopatrickc - 15/08/2014");
-		lbladrianopatrick.setBounds(21, 459, 282, 16);
+		lbladrianopatrick.setBounds(21, 463, 300, 16);
 		contentPane.add(lbladrianopatrick);
 		
 	}
@@ -149,7 +149,11 @@ public class XQueryBuilder extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+					try {
+						UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+					} catch (Exception e) {
+						System.out.println("Nao foi possivel alterar o lookandfeel");
+					}
 					XQueryBuilder frame = new XQueryBuilder();
 					frame.setVisible(true);
 				} catch (Exception e) {
