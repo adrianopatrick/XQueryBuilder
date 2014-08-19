@@ -17,6 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSeparator;
 import javax.swing.JTextArea;
+import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 import javax.xml.xquery.XQException;
 
@@ -40,9 +41,10 @@ public class XQueryBuilder extends JFrame {
 	 * Create the frame.
 	 */
 	public XQueryBuilder() {
+		
 		setTitle("XQuery Builder 1.0");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 922, 515);
+		setBounds(100, 100, 922, 524);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -97,7 +99,7 @@ public class XQueryBuilder extends JFrame {
 		contentPane.add(separator);
 		
 		JLabel lbladrianopatrick = new JLabel("#mia-unifor @adrianopatrickc - 15/08/2014");
-		lbladrianopatrick.setBounds(21, 471, 282, 16);
+		lbladrianopatrick.setBounds(21, 459, 282, 16);
 		contentPane.add(lbladrianopatrick);
 		
 	}
@@ -147,6 +149,7 @@ public class XQueryBuilder extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 					XQueryBuilder frame = new XQueryBuilder();
 					frame.setVisible(true);
 				} catch (Exception e) {
